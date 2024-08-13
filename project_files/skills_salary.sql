@@ -1,4 +1,4 @@
-/*Question to Solve : Which skills are associated with higher salaries in the top 10 IT Field?
+/*Question to Solve : Which skills are associated with higher salaries in the top 5 IT Field?
 - Find and identify top 10 skills that contribute to higher salary
 - Use all jobs posting that remote
 - Remove any nulls data
@@ -20,7 +20,7 @@ ON
   skills_job_dim.skill_id = skills_dim.skill_id
 WHERE 
    job_title_short IN (
-  'Business Analyst'
+  'Senior Data Science'
   /*'Cloud Engineer', 
   'Data Analyst', 
   'Data Engineer', 
@@ -38,4 +38,4 @@ GROUP BY
   skills
 ORDER BY 
   salary DESC
-LIMIT 10;
+LIMIT 5;

@@ -1,6 +1,6 @@
 /*
 Question to Solve : What skills are most in demand in the market?
-- Find and identify top 10 most frequent/demanded skills for programming
+- Find and identify top 10 most frequent/demanded skills for programming,databases and clous services
 - Use all jobs posting
 - Remove any nulls data
 - Give reason why this top 10 most demanded in the market
@@ -21,7 +21,7 @@ ON
   skills_job_dim.skill_id = skills_dim.skill_id
 WHERE 
   skills_dim.type IN (
-    'programming'/*,
+    'cloud'/*,
     'databases',
     'cloud',
     'libraries',

@@ -37,16 +37,17 @@ ON
     skills_job_dim.skill_id = skills_dim.skill_id
 WHERE
   job_title_short IN (
-  'Data Engineer', 
+  'Senior Data Science'/*, 
   'Data Scientist',  
   'Senior Data Analyst', 
   'Senior Data Engineer', 
-  'Senior Data Science'
+  'Senior Data Science'*/
   )
 GROUP BY
   top_paying_job.job_title_short, skills_dim.skills
 ORDER BY
-  top_paying_job.job_title_short DESC, skill_frequency DESC;
+  top_paying_job.job_title_short DESC, skill_frequency DESC
+LIMIT 5
 
 
 
