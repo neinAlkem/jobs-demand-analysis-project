@@ -1,4 +1,4 @@
-# Introduction
+# JOB DEMAND ANALYSIS 
 This project is focused on analyzing top-paying jobs and skill demand in the IT field. The primary goal is to enhance my SQL skills by working through real-world data and queries. The project was originally created by [Luke Barrouse](https://www.youtube.com/@LukeBarousse), but I have made modifications to the original questions to better align with my learning objectives. Through this analysis, I aim to gain deeper insights into the IT job market while sharpening my SQL capabilities.
 
 🔍 Shortcut To Project Queries : **[project_files](/project_files/)**
